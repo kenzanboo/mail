@@ -3,12 +3,14 @@ This is an exmample node.js backend that sends an email using mailgun
 
 !Important! The to email MUST be added to the whitelist for the account
 
+This is started from a boilerplate by KunalKapadia: KunalKapadia/express-mongoose-es6-rest-api.git
+
 ## Getting Started
 
 Clone the repo:
 ```sh
-git clone git@github.com:KunalKapadia/express-mongoose-es6-rest-api.git
-cd express-mongoose-es6-rest-api
+git clone git@github.com:kenzanboo/mail.git
+cd mail
 ```
 
 Install yarn:
@@ -21,10 +23,10 @@ Install dependencies:
 yarn
 ```
 
-Start server:
-```sh
 # Start server
+```sh
 yarn start
+```
 
 # Send email
 Example send email:
