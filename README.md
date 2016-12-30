@@ -1,9 +1,14 @@
 ## Overview
-This is an exmample node.js backend that sends an email using mailgun
+This is an sample node.js backend that sends an email using mailgun
 
-!Important! The to email MUST be added to the whitelist for the account
+Important! The to email MUST be added to the whitelist for the account.
 
 This is started from a boilerplate by KunalKapadia: KunalKapadia/express-mongoose-es6-rest-api.git
+
+Original document from mail exercise from Brightwheel linked here for reference:
+https://drive.google.com/file/d/0B2PWNPISLaXdbVJHalgxWGVET2c/view
+
+
 
 ## Getting Started
 
@@ -56,12 +61,12 @@ yarn lint
 yarn lint:watch
 ```
 
-Other gulp tasks:
-```sh
-# Wipe out dist and coverage directory
-gulp clean
+##Frameworks used:
+NodeJS and Express seemed ideal for a simple web backend to send out process and relay data like this. 
 
-# Default task: Wipes out dist and coverage directory. Compiles using babel.
-gulp
-```
+I added in request-promise to keep all the code promisified. 
+
+Code linting using ESLint
+
+ES6 Babel because it makes code much cleaner and more understandable.
 
